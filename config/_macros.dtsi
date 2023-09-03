@@ -10,7 +10,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp UP>
-                , <&macro_tap &to _DEF>
+                , <&macro_tap &to _BAS>
                 ;
         };
 
@@ -20,7 +20,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp DOWN>
-                , <&macro_tap &to _DEF>
+                , <&macro_tap &to _BAS>
                 ;
         };
 
@@ -30,7 +30,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp LEFT>
-                , <&macro_tap &to _DEF>
+                , <&macro_tap &to _BAS>
                 ;
         };
 
@@ -40,7 +40,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp RIGHT>
-                , <&macro_tap &to _DEF>
+                , <&macro_tap &to _BAS>
                 ;
         };
 
