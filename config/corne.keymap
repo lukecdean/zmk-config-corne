@@ -51,7 +51,7 @@
     bindings = <
     &trans &none &none &kp UP &none &none                          &kp STAR    &kp N7 &kp N8 &kp N9 &kp PLUS &trans
     &trans &kp LGUI &kp LEFT &kp DOWN &kp RIGHT &none              &kp COMMA   &hm RSHFT N4 &hm RCTRL N5 &hm RALT N6 &hm RGUI N0 &trans
-    &trans &kp H &kp K &kp J &kp L &none                           &kp FSLH    &kp N1 &kp N2 &kp N3 &kp MINUS &trans
+    &trans &kp H &kp K &kp J &kp L &af4                           &kp FSLH    &kp N1 &kp N2 &kp N3 &kp MINUS &trans
                         &trans &to 0 &kp BSPC                      &kp SPC &kp DOT &trans
     >;
     };
@@ -60,7 +60,7 @@
     bindings = <
     &trans &none &none &ddu &none &to 4                          &kp STAR    &kp N7 &kp N8 &kp N9 &kp PLUS &trans
     &trans &kp LGUI &ddl &ddd &ddr &none              &kp COMMA   &hm RSHFT N4 &hm RCTRL N5 &hm RALT N6 &hm RGUI N0 &trans
-    &trans &kp H &kp K &kp J &kp L &none                            &kp FSLH    &kp N1 &kp N2 &kp N3 &kp MINUS &trans
+    &trans &kp H &kp K &kp J &kp L &af4                            &kp FSLH    &kp N1 &kp N2 &kp N3 &kp MINUS &trans
                         &trans &to 0 &to 0                         &kp SPC &kp DOT &trans
     >;
     };
