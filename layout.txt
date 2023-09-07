@@ -1,4 +1,4 @@
-HD Elan Luke-corne
+HD Elan Luke - corne
 Based on: https://sites.google.com/alanreiser.com/handsdown
 
 /*                KEY POSITIONS
@@ -9,9 +9,15 @@ Based on: https://sites.google.com/alanreiser.com/handsdown
   │ 24  25  26  27  28  29 │ │ 30  31  32  33  34  35 │
   ╰───────────╮ 36  37  38 │ │ 39  40  41 ╭───────────╯
               ╰────────────╯ ╰────────────╯            */
+enter:   8  9
+tab:     7  9
+esc:    26 27
+BAS:    38 39
+SFT:    37 40
+BLE:    24 35
 
 
-DEF         ANV     I3W     NNV                                     SM1     NNV     SM2      
+BAS         ANV     I3W     NNV                                     SM1     NNV     SM2      
     tab     v       g       h       p       k               /       ;       .       ,       bspc        #
     esc     r       s       n       t       f               j       a       e       c       i           ntr
     #       x       m       l       d       b               =       u       o       w       y mo SFT    #
@@ -48,34 +54,4 @@ BLE
                             #       to 0    to 0            to 0    to 0    #
               
 
-
  gui alt ctrl shift
-
-
- 8 9 : delete
-
- 6 8 : tab
- 7 8 : enter
-
- 21 22 : esc
- 
- 31 32 : to DEF
- 30 33 : to SFT
-
- 20 9 : to BLE // TODO
-
-
-x
-    #       #       #       #       #       #               #       #       #       #       #       #
-    #       #       #       #       #       #               #       #       #       #       #       #
-    #       #       #       #       #       #               #       #       #       #       #       #
-                            #       #       #               #       #       #
-
-
-
-When pairing to a host device ZMK saves bond information to the selected profile. 
-It will not replace this when you initiate pairing with another device. 
-To pair with a new device select an unused profile with BT_SEL, BT_NXT or BT_PRV bindings, or by clearing an existing profile using BT_CLR.
-
-A ZMK device may show as "connected" on multiple hosts at the same time. 
-This is working as intended, and only the host associated with the active profile will receive keystrokes.
