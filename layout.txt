@@ -13,6 +13,7 @@ Based on: https://sites.google.com/alanreiser.com/handsdown
 enter:   8  9
 tab:     7  9
 esc:    26 27
+ctrl-z: 37 14
 BAS:    38 39
 SFT:    37 40
 BLE:    24 35
